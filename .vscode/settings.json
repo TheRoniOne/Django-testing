@@ -1,0 +1,18 @@
+{
+    "python.linting.enabled": true,
+    "python.linting.lintOnSave": true,
+    "python.linting.prospectorEnabled": true,
+    "python.linting.prospectorArgs": [
+        "--uses",
+        "django",
+        "--with-tool",
+        "mypy",
+        "bandit"
+    ],
+    "python.formatting.provider": "black",
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+        "source.organizeImports": true
+    },
+    "python.linting.mypyEnabled": true
+}
